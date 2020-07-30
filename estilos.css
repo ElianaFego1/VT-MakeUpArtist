@@ -1,0 +1,219 @@
+html{
+    font-size: 62.5%;
+}
+
+#contenedor{
+   width: 100%;
+}
+
+main{
+    width: 90%;
+    display: flex;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+
+h1{
+    color: rgb(41, 28, 28); 
+    font-family: 'Montserrat Subrayada';
+    text-align: center;
+    letter-spacing: 0.4rem;
+    font-size: 4rem;
+}
+
+h3{
+    color: rgb(41, 28, 28); 
+    font-family: 'Montserrat Subrayada';
+    text-align: center;
+    font-size: 3rem;
+}
+
+h4{
+    color: rgb(34, 31, 31); 
+    font-family: Quicksand;
+    font-size: 2rem;
+}
+
+p{
+    color: rgb(34, 31, 31); 
+    font-family: Quicksand;
+    font-size: 1.5rem;
+}
+
+.logo{
+    top: 10px;
+    left: 90px;
+    position: absolute;
+}
+
+.navegador{
+    background-color:  rgb(255, 255, 255);
+}
+
+.menu{
+    list-style: none;
+    text-align: right;
+}
+
+
+
+.menu li{
+    display: inline-block;
+    position: relative;
+    
+}
+
+.menu li a{
+    display: block;
+    padding: 17px;
+    color: rgb(49, 19, 19); 
+    font-family: Quicksand;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.menu:hover li a{
+    color: rgb(0, 0, 0);
+}
+
+.menu li a:hover {
+    color: rgb(115, 125, 221);
+    transform: scale(1.1);
+}
+/*
+.introd{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 3.5rem;
+}
+*/
+
+.introd{
+    background:rgb(255, 255, 255);
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 3.5rem;
+    
+}
+
+
+.video{
+    margin: 20px;
+}
+
+.miFoto{
+    margin: 30px;
+}
+
+.sobreMi{
+    display: flex;
+    align-items: center;
+    line-height: 3.5rem; 
+    background-color: rgb(255, 255, 255);  
+}
+
+.QuienSoy{
+    background-color: rgb(255, 255, 255);
+    margin: 30px;
+    padding: 20px;
+}
+
+.sobreMi{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 3.5rem; 
+    background-color: rgb(255, 255, 255);  
+}
+
+.QuienSoy{
+    background-color: rgb(255, 255, 255);
+    margin: 30px;
+    padding: 20px;
+}
+
+ 
+/*
+.formulario{
+  background-color: rgb(68, 87, 45);
+  width: 500px; 
+  height: 500px;
+  position: absolute;
+  left: 300px;
+}
+*/
+.formulario{
+    width: 30%;
+    min-width: 300px;
+    margin: auto;
+    background: #c7b5b5;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+.consulta{
+    
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 3px;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 250px;
+}
+
+.botones{
+    background: #4e0c0c;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.introduccion{
+    background-color: rgb(255, 255, 255);
+    margin: 30px;
+    padding: 20px;
+}
+/*
+.gridContenedor{
+    
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 20px;
+    justify-items: center;
+
+}
+
+
+.carousel-item{
+    width: 100%;
+    height: 500px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+*/
+footer{
+    font-size: 1.4rem;
+}
+
