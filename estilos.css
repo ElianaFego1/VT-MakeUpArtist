@@ -191,19 +191,75 @@ a{
     margin: 30px;
     padding: 20px;
 }
-/*
+
 .gridContenedor{
-    
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 20px;
     justify-items: center;
+    
 
 }
 
+.contenedorImg{
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
 
+.contenedorImg:hover img{
+    filter: blur(2px);
+    
+}
+
+.text{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title, .paragraph{
+    margin: 10px;
+    padding: 5px;
+}
+
+.title{
+    position: relative;
+    left: -100%;
+    transition: all .3s;
+}
+
+.contenedorImg:hover .title{
+    left: 0;
+    animation-delay: .3s;
+    transition: all .3s;
+}
+
+.paragraph{
+    position: relative;
+    right: 100%;
+    transition: all .3s;
+}
+
+.contenedorImg:hover .paragraph{
+    right: 0;
+    animation-delay: .3s;
+    transition: all .3s;
+}
+
+
+
+/*
 .carousel-item{
     width: 100%;
     height: 500px;
