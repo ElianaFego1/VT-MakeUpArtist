@@ -241,6 +241,7 @@ a{
     padding: 20px;
 }
 
+<<<<<<< HEAD
  /*galeria*/
 .gridContenedor{
     width: 80%;
@@ -278,6 +279,9 @@ a{
 }
 /*
 .gridContenedor{
+=======
+.gridContenedor{
+>>>>>>> 87aa5bf024c3f757cf506398536bc6ecd1a2bf71
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
@@ -285,6 +289,7 @@ a{
     grid-row-gap: 20px;
     justify-items: center;
     
+<<<<<<< HEAD
 
 }
 
@@ -337,6 +342,8 @@ a{
     transition: all .3s;
     color: rgb(215, 235, 235);
 }
+=======
+>>>>>>> 87aa5bf024c3f757cf506398536bc6ecd1a2bf71
 
 .contenedorImg:hover .paragraph{
     right: 0;
@@ -345,7 +352,64 @@ a{
     
 }
 
+.contenedorImg{
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
 
+<<<<<<< HEAD
+=======
+.contenedorImg:hover img{
+    filter: blur(2px);
+    
+}
+
+.text{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title, .paragraph{
+    margin: 10px;
+    padding: 5px;
+}
+
+.title{
+    position: relative;
+    left: -100%;
+    transition: all .3s;
+}
+
+.contenedorImg:hover .title{
+    left: 0;
+    animation-delay: .3s;
+    transition: all .3s;
+}
+
+.paragraph{
+    position: relative;
+    right: 100%;
+    transition: all .3s;
+}
+
+.contenedorImg:hover .paragraph{
+    right: 0;
+    animation-delay: .3s;
+    transition: all .3s;
+}
+
+
+>>>>>>> 87aa5bf024c3f757cf506398536bc6ecd1a2bf71
 
 /*
 .carousel-item{
